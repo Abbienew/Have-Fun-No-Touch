@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Have Fun No Touch Demo</title>
+
+    <style>
+        .indicatorDot {
+            width: 50px;
+            height: 50px;
+            background-color: #eeca01;
+            border-radius: 50%;
+            position: fixed;
+        }
+    </style>
+
+<!--attach -->
+<!--<script src="mobile-audio.js"></script>-->
+    <script src="mobile.js"></script>
+
+ <!--webaudio -->
+    <script src="https://cdn.rawgit.com/mohayonao/web-audio-api-shim/master/build/web-audio-api-shim.min.js"></script>
+    <script src="https://cdn.rawgit.com/mohayonao/web-audio-api-shim/master/build/web-audio-api-shim.min.js"> </script>
+    <script src="https://unpkg.com/tone@13.8.25/build/Tone.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/0.8.0/Tone.min.js"> </script>
+    <script src="https://cdn.rawgit.com/tambien/StartAudioContext/master/StartAudioContext.js"> </script>
+
+<!--firebase -->
+
+
+</head>
+
+<body style="background-color:#124b80;">
+    <button id="accelPermsButton" style="height:50px;" onclick="getAccel()">
+        <h1>Get Accelerometer Permissions</h1> </button>
+    <div class="indicatorDot" style="left:30%; top:30%;"></div>
+
+
+</body>
+
+</html>
