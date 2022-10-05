@@ -1,3 +1,3 @@
 # Have-Fun-No-Touch
 
-A WIP sonic project control by moble with multiplayer developed in late 2021.
+A WIP sonic project control by mobile with multiplayer developed in late 2021.
